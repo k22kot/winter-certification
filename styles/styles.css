@@ -349,9 +349,15 @@ footer {
     display: flex;
 }
 
+.item {
+    font-family: 'Jost', sans-serif;
+    padding-left: 80px;
+}
+
 ul {
     margin: 0;
-    padding-left: 80px;
+    padding: 0;
+    
 }
 
 h4 {
@@ -361,7 +367,7 @@ h4 {
     padding-bottom: 40px;
 }
 
-footer .menu li {
+.item li {
     font-size: 31px;
     font-weight: 400;
     list-style: none;

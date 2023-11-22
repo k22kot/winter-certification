@@ -61,7 +61,7 @@
             <p>Lorem Ipsum is simply dummy text of the printing</p>
         </div>
         <div class="content">
-            <form action="">
+            <form action="/forms/content.php">
                 <div class="form-input">
                     <label for="email" class="sr-only">Email</label>
                     <input type="text" name="email" id="email" placeholder="Email">
@@ -82,7 +82,7 @@
         <section class="navigation">
             <div class="logo">
                 <div class="logo-footer"></div>
-                <form action="">
+                <form action="/forms/subscribe.php">
                     <div class="form-footer">
                         <label for="email-footer" class="sr-only"></label>
                         <input type="text" name="email-footer" id="email-footer" placeholder="Email">
@@ -90,33 +90,39 @@
                     <button class="btn-footer">Subscribe</button>
                 </form>
             </div>
-            <div class="menu">
-                <ul>
+           <div class="menu">
+                <div class="item">
                     <h4>Platform</h4>
-                    <li>Home</li>
-                    <li>Overview</li>
-                    <li>Pricing</li>
-                    <li>About</li>
-                </ul>
-                <ul>
+                    <ul>
+                        <li>Home</li>
+                        <li>Overview</li>
+                        <li>Pricing</li>
+                        <li>About</li>
+                    </ul>
+                </div>
+                <div class="item">
                     <h4>Help</h4>
-                    <li>How It Works?</li>
-                    <li>Pay?</li>
-                    <li>Question?</li>
-                    <li>Contact?</li>
-                </ul>
-                <ul>
+                    <ul>
+                        <li>How It Works?</li>
+                        <li>Pay?</li>
+                        <li>Question?</li>
+                        <li>Contact?</li>
+                    </ul>
+                </div>
+                <div class="item">
                     <h4>Contact</h4>
-                    <li>(+000) 1234-6789</li>
-                    <li>116 Archlor Road <br>
-                        Broadlaband, <br>
-                        NewYork (NYC)
-                        1205</li>
-                </ul>
+                    <ul>
+                        <li>(+000) 1234-6789</li>
+                        <li>116 Archlor Road <br>
+                            Broadlaband, <br>
+                            NewYork (NYC)
+                            1205</li>
+                    </ul>
+                </div>
             </div>
         </section>
         <div class="divider"></div>
-        <section class="additional">
+        <div class="additional">
             <p>CopyRighted 2020-2023   All Rights Reserved.</p>
             <div class="social-media">
                 <button class="icon-yb"></button>
@@ -124,7 +130,7 @@
                 <button class="icon-fb"></button>
                 <button class="icon-ln"></button>
             </div>
-        </section>
+        </div>
     </footer>
 </body>
 </html>

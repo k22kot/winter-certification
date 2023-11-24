@@ -14,37 +14,36 @@
 
 body {
     margin: 0;
-
     font-family: 'Poppins', sans-serif;
 }
 
 header {
-    margin: 45px 80px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 45px 80px;
 }
 
-header nav ul {
+nav ul {
     display: flex;
     list-style: none;
     margin: 0;
     padding: 0;
-    
+
 }
 
-header nav ul li {
+nav ul li {
     margin-left: 80px;
     font-size: 30px;
     font-weight: 400;
 }
 
-header nav a {
+nav a {
     color: var(--grey);
     text-decoration: none;
 }
 
-header nav a:hover {
+nav a:hover {
     color: var(--blue);
 }
 
@@ -93,9 +92,8 @@ main {
 .about {
     max-width: 616px;
 }
- 
 
-.image-container {
+.image-main {
     border-radius: 0px 0px 0px 191px;
     background-image: url(../images/Steven.png);
     background-size: auto;
@@ -163,7 +161,7 @@ main {
     padding: 120px 80px;
 }
 
-.image-container-2 {
+.image-about-me {
     background-image: url(../images/aboutme.png);
     width: 70%;
     background-size: contain;
@@ -234,7 +232,7 @@ form .sr-only {
     border: none;
     border-radius: 0px;
     padding-bottom: 80px;
-    
+
 }
 
 .form-input input {
@@ -278,7 +276,7 @@ form .sr-only {
     color: var(--blue);
 }
 
-.image-container-3 {
+.image-form {
     background-image: url(../images/contact.png);
     width: 100%;
     height: auto;
@@ -357,7 +355,6 @@ footer {
 ul {
     margin: 0;
     padding: 0;
-    
 }
 
 h4 {
@@ -373,6 +370,16 @@ h4 {
     list-style: none;
     padding-bottom: 46px;
 }
+
+.item a {
+    color: var(--black);
+    text-decoration: none;
+}
+
+.item a:hover {
+    color: var(--grey);
+}
+
 
 .divider {
     border: 1px solid var(--black);
